@@ -1,4 +1,7 @@
 .controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     width: 250px;
     margin: 0 auto;
     background-color: red;
@@ -24,6 +27,7 @@
    font-weight: bold;
    font-size: 20px;
    color: white;
-   padding: 100px 30px;
-    
+   padding: 2px 30px;   
+   margin-top: 20px;    
 }
+
